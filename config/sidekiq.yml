@@ -1,0 +1,8 @@
+:concurrency: 5
+:queues:
+  - default
+:schedule:
+  update_quotes:
+    cron: '0 */12 * * *'
+    class: 'UpdateQuotesJob'
+    queue: 'default'

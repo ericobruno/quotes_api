@@ -1,0 +1,9 @@
+development:
+ clients:
+    default:
+      database: quotes_crawler_development
+      hosts:
+        - localhost:27017
+      options:
+        server_selection_timeout: 1
+        max_pool_size: 5
